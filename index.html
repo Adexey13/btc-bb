@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC Tap App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile" class="profile-img">
+                <span class="wallet-balance">0.00004478 BTC</span>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="balance-display">
+                <span class="btc-amount">0.00004478</span>
+            </div>
+            <div class="tap-area">
+                <img src="btc-logo.png" alt="Bitcoin Logo" class="btc-logo">
+            </div>
+            <div class="energy-bar">
+                <span class="energy">Energy: 100%</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <button class="invite-btn">Invite Friends</button>
+            <div class="referrals hidden" id="referrals">
+                <!-- Referrals will be shown here dynamically -->
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 BTC Tap App. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
